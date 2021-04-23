@@ -6,7 +6,10 @@
 	4.lifecycleMixin(Vue)
 	5.renderMixin(Vue)
 ### 初始化方法解析
-	>initMixin(Vue)
+	>>>initMixin(Vue)
 	...
 	initLifecycle(vm); //初始化生命周期
+    initEvents(vm); //初始化事件
+    initRender(vm); //初始化渲染
+    
 
